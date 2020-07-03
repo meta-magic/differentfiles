@@ -1,0 +1,144 @@
+{
+    "metadata": {
+        "processName": "CSPi NG APAC",
+        "processId": "64a3546a-7715-40c8-b5d6-c606cf556f31",
+        "stageId": "1e67f41d-c7f4-4626-b3ff-5b23193a47ce",
+        "task": "DocValidation",
+        "taskGroupId": "e9a3b062-69f0-46ed-bb67-acf9d6655c3e",
+        "requestDate": "2020-07-01T08:04:33.042-0400",
+        "requestType": "query",
+        "requestId": "18a71b74-cb29-4e26-8292-82c78027368e",
+        "version": "2.1.0",
+        "attempt": 1,
+        "multiTask": "no",
+        "requestAuthToken": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ7XCJtdGVpZFwiOlwiOGI3NGQ0NGMtMDU5MC00MDdjLThiZDgtNjFkM2FkN2Y2ZjM5XCIsXCJ1c2VySWRcIjpcImIxMTA1NDhkLWFmNzgtNGUyNC04ZDZiLWNlN2IyZTE4YWI2OFwiLFwiYXBwU2Vzc2lvbklkXCI6XCI3OWNmMmRhNy01MzRhLTRkZGItODRlOS04MDY3MTdmMzdmZDRcIixcInByb2plY3RJZFwiOlwicHJvamVjdElkXCIsXCJwcm9qZWN0VmVyc2lvbklkXCI6XCJwcm9qZWN0VmVyc2lvbklkXCJ9IiwiZXhwIjoxNjI1MDI1NjAwfQ.2bnthXhwKPG99kuLXqnmBiLivXInHdsctLuBIfF5RLl4t_lwPnnOoE3Vo7-El3fb3ItaN0eSDGI9H9HP7V8ilw",
+        "txLabel": "123456789",
+        "stageName": "Doc Validiation"
+    },
+    "data": [{
+        "taskName": "DocValidation",
+        "taskId": "e9a3b062-69f0-46ed-bb67-acf9d6655c3e",
+        "taskBy": "BO",
+        "taskSerialNo": 1,
+        "taskSpecs": {
+            "DocValidation": {
+                "case": {
+                    "caseReference": {
+                        "caseUUID": "680fd075-5e12-4b0d-98d6-2ad529916ec7",
+                        "clientId": "0a6fc526-3950-4a82-8d37-d60a069bc5de",
+                        "sbuId": "ab2a0c26-53c8-4107-8f32-f81d1b300bb2",
+                        "packageId": "657e5e99-994b-4876-bf4d-97e7c841095a",
+                        "crnNo": "",
+                        "crnCreatedDate": "",
+                        "caseNo": 1593605074730
+                    },
+                    "caseDetails": {
+                        "clientName": "Global Level TEST Report Automation",
+                        "sbuName": "Global Level TEST Report Automation",
+                        "packageName": "A718 - Standard Screening",
+                        "firstName": "Rashmi Test3",
+                        "middleName": "H",
+                        "lastName": "",
+                        "caseDate": null,
+                        "subjectDetails": "",
+                        "subjectType": "",
+                        "clientCostCode": "",
+                        "grantPermissionToFADV": "No",
+                        "emailTemplate": "",
+                        "emailTo": "",
+                        "startDate": "",
+                        "officalEmailAddress": "",
+                        "personalEmailAddress": "",
+                        "dateOfBirth": null,
+                        "clientReferenceNo": "",
+                        "typeOfCheck": "",
+                        "authorizationLetter": "",
+                        "packageType": "PACKAGE_TYPE",
+                        "caseOrigin": "NG_UI",
+                        "srtData": "",
+                        "loaSubmited": "Yes",
+                        "bvfSubmitted": "Yes",
+                        "isDuplicate": "No",
+                        "requestStatus": "Completed",
+                        "comment": "",
+                        "contactDate": "2020-07-09",
+                        "contactCurrentEmployer": "No"
+                    },
+                    "clientSpecificFields": {
+                        "Priority Level": "",
+                        "DB HR owner": "",
+                        "HR Owner": "",
+                        "Case beyond TAT": "",
+                        "Service Level Credit": "",
+                        "Total Case Cost in USD": "",
+                        "HRS Country TM": "",
+                        "TM Email Address": "",
+                        "Invoicing Legal Entity": "DBSP",
+                        "Case Cost Local Currency Type": "",
+                        "Invoice No": "",
+                        "Sensitive Position": "",
+                        "Date of acknowledgement": "",
+                        "Start Date": "2020-07-10",
+                        "Invoice Date": "",
+                        "HRS TM": "",
+                        "Billing Case Status": "",
+                        "Cause of Delay for Cases beyond TAT": "",
+                        "Hiring Manager": "",
+                        "Expected Hire Date": ""
+                    },
+                    "caseMoreInfo": {
+                        "Recruiter Name": "N",
+                        "Additional Report Viewers": [
+                            "Isaac RyanMarks",
+                            " MohanMalla"
+                        ],
+                        "Hiring Manager Name": "DivyaRayappan"
+                    }
+                },
+                "documents": [{
+                        "documentName": "Privacy Consent Form",
+                        "isvalid": "no",
+                        "questions": [{
+                                "questionLabel": "Is it a valid document?",
+                                "answer": "yes"
+                            },
+                            {
+                                "questionLabel": "Is document clear?",
+                                "answer": "no"
+                            },
+                            {
+                                "questionLabel": "Is document wet signed?",
+                                "answer": "yes"
+                            },
+                            {
+                                "questionLabel": "Date of Signature",
+                                "answer": "2020-05-29"
+                            }
+                        ]
+                    },
+                    {
+                        "documentName": "Letter of Authorization",
+                        "isvalid": "no",
+                        "questions": [{
+                                "questionLabel": "Is it a valid document?",
+                                "answer": "yes"
+                            },
+                            {
+                                "questionLabel": "Is document clear?",
+                                "answer": "yes"
+                            },
+                            {
+                                "questionLabel": "Is document wet signed?",
+                                "answer": "yes"
+                            },
+                            {
+                                "questionLabel": "Date of Signature",
+                                "answer": "2020-05-29"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }]
+}
